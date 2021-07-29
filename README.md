@@ -31,17 +31,16 @@ Wild pollution is a common problem in devlopped and in-developpement countries. 
 
 ### How can technology help?
 
-Today the most known cryptocurrency is Bitcoin, where the inflation system work with an electrical heavy consumption proof of work algorithm. That's mean to create a new bitcoin you need to resolve very complex mathematical problems.
-We believe that the blockchain environment is more mature thanks to smart contracts. So we created the Jobcoin. A cryptocurrency where a new supply is created each time a Trash tag challenge is done and verify. To remind, a Trash tag challenge is an ecological action where people find a place with wild pollution, take a picture, clean it up and take a picture again to show the work done. The ambition is to create an economic interests to protect natural environment for anyone.
-
+Today, the most known cryptocurrency is Bitcoin, where the inflation system work with an electrical heavy consumption proof of work algorithm. That's mean to create a new bitcoin you need to resolve very complex mathematical problems. We believe that the blockchain environment is more mature thanks to smart contracts. So we created the Jobcoin. A cryptocurrency where a new supply is created each time a Trash tag challenge is done and verify. To remind, a Trash tag challenge is an ecological action where people find a place with wild pollution, take a picture, clean it up and take a picture again to show the work done. The ambition is to create an economic interests to protect natural environment for anyone thanks to a cryptocurrency.
 
 
 ### The idea
 
 Our world is changing, we learn at school that a majority of job do not exist yet.
-We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to value creation. That's may be possible thanks to new form of organizations which are DAO or Decentralized Autonomous Organization, the future of ONG.
+We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to real value creation. 
 Blockchain job is basically task job which are finance by cryptocurrencies.
-You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production probkems. We think if we creat a new form of job to collect wastes no matter where it is. It would permit to local authority to economize money in collect of waste and to reinvest this money to permit the recycling of waste. By this way, we want to privatize the fact of collect wild pollution waste to let local authority the possibility to create recycling center.
+You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production probkems. 
+We think that if we creat a new form of job to collect wastes no matter where it is. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
 
 
 
@@ -56,15 +55,15 @@ Inspired bu the trashtag challenge which was a twitter challenge created in 2019
 
 ![Video transcription/translation app](./readmePict/untitled@2x.png)
 
-1. The Trashtag warrior connect with his crytpo wallet to the interface and upload trashtag pictures
-2. Metadatas (pictures, localisation, date, orientation) are send to a decentralised storage network IPFS (standard for non-fongible token)
-3. IPFS return an CID url
+1. The Trashtag warrior connect with his crypto wallet to the interface and upload trashtag pictures
+2. Metadatas (pictures, localisation, datetime and phone orientation) are send to a decentralised storage network IPFS (standard for non-fongible token)
+3. IPFS return an CID (url)
 4. CID of Metadatas and trashtag warrior blockchain address are send in a waiting list on our smart-contracts 
 5. Verificator interface receive the last trashtag challenge cid
 6. Interface extract data from IPFS thanks to the CID
 7. Trashtag Pictures are show to the verificators
-8. If the Verificator valid th trashtag, 100JBC and a trashtag token will be created for the trashtag warrior.
-9. Each time a trashtag is validated, pictures are send to the watson AI to train our model of trash tag recognition.
+8. If 5 Verificators valid a trashtag, 100JBC and a trashtag token will be created for the trashtag warrior.
+9. Each time a trashtag challenge is validate, pictures are send to the watson AI to train our model of trash tag visual recognition.
 
 ## Long description
 
@@ -72,29 +71,13 @@ Inspired bu the trashtag challenge which was a twitter challenge created in 2019
 
 ## Project roadmap
 
-Deployment on Rinkeby tesrnet (July)
-Smart contract audit
-Launch of Trashtag Dapp on the polygon (or IBM blockchain evm compatible?) mainnet
-ICO of jobcoin
-Rise a community of Trashtag warrior and verificators
-Creation of DAO
-Deployment of the decentralised Autonomous Organisation
-
-The project currently does the following things.
-
-- Create Non-fongible token to represent Trashtag Challenge
-- Mint 100 JobCoin for initiator of a trashtag challenge
-  Visualisation of your Trashtag token (Non-fongible token)
-- Staking system for verificator (https://www.coinbase.com/fr/learn/crypto-basics/what-is-staking)*
-
-
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 
-![Roadmap](./readmePict/roadmap@2x.png)
+![Roadmap](./readmePict/roadmap.png)
 
 ## Getting started
 
-###1. git clone https://github.com/adrian-blockchain/Trashtag-dapp
+###1. git clone https://github.com/adrian-blockchain/Trash-Tag-decentralized-application
 
 ###2. npm install
 
@@ -117,23 +100,14 @@ You can find a running system to test at [Trashtag-dapp](https://trashtagdapp.eu
 - [IBM Watson AI for Visual recognition](https://developer.ibm.com/technologies/vision/) - To develop a model of AI to detect trashtag challenge
 - [Rinkeby Ethereum testnet](https://www.rinkeby.io) - Smart-contracts are immutable, so we wanted to test our dapp on a test network 
 
-## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
+## Authors and Contributing
 
 - Maë Bain (https://www.linkedin.com/in/ma%C3%AB-bain-164821192/)
 - Adrian Kinsey-Hillou (https://www.linkedin.com/in/adrian-kinsey-hillou-241025203/)
 - Erwann David (https://www.linkedin.com/in/erwann-david-949b49173/)
 
-## License
 
-This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

@@ -77,11 +77,11 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
-###1. git clone https://github.com/adrian-blockchain/Trash-Tag-decentralized-application
+1. git clone https://github.com/adrian-blockchain/Trash-Tag-decentralized-application
 
-###2. npm install
+2. npm install
 
-###3. npm start
+3. npm start
 
 
 Runs the app in the development mode.

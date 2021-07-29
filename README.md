@@ -16,8 +16,6 @@
     - [Getting started](#getting-started)
     - [Live demo](#live-demo)
     - [Built with](#built-with)
-    - [Contributing](#contributing)
-    - [Versioning](#versioning)
     - [Authors](#authors)
     - [License](#license)
     - [Acknowledgments](#acknowledgments)
@@ -92,7 +90,7 @@ You will also see any lint errors in the console.
 
 ## Live demo
 
-To be able to use the Dapp, you need to have a crypto-wallet such as [Metamask](https://metamask.io/) on you web browser.
+To be able to use the Dapp, you need to have a crypto-wallet such as [Metamask](https://metamask.io/) on your web browser.
 Then you need to select 'Rinkeby test network'.
 
 You can find a running system to test at [Trashtag-dapp.com](https://trashtagdapp.eu-gb.cf.appdomain.cloud/).

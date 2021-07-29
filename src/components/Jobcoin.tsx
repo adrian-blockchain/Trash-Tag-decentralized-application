@@ -43,7 +43,7 @@ export const Jobcoin =()=>{
         }
         load();
     }
-
+    //Send Jobcoin to user's wallet
     const getJBC =()=>{
         const load = async ()=> {
             await contract.methods.GetForTest().send({from: account})

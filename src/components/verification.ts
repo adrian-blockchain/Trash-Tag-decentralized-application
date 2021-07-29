@@ -1,4 +1,5 @@
 export const verification = (allMetaDataImg1:any, allMetaDataImg2:any):boolean=> {
+    //We turned off geographical verification because Iphone pictures seems to not work with exif.js
 
     if (allMetaDataImg1.GPSLongitude !==undefined){
         console.log(allMetaDataImg1.DateTime);

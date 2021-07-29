@@ -12,17 +12,11 @@ import TrashTag from "../contracts/TrashtagDAPP.json";
 declare const window: any;
 
 export const VerificatorJudgement = ()=>{
-    const [receive, setreceive] = useState<boolean>(false)
-    const [metadatas, setMetadatas] = useState<string>()
-    const [TTaccount, setTTaccount] = useState<string>();
-    let [positive, setPositive] = useState<number>(0);
-    let [negative, setNegative] = useState<number>(0);
+
     const [account, setAccount] = useState<string>('')
     const [contract, setContract] = useState<any>()
     const [loading, setLoading] =useState<boolean>(true)
-    const [URI, setURI] = useState<boolean>(true);
     let [cid, setCid] = useState<any>();
-    let [TTwarrior, setTTwarrior] = useState<string>()
     let [newURI, setNewURI] = useState<boolean>(true)
 
     const componentWillAmount = async ()=>{
@@ -32,6 +26,7 @@ export const VerificatorJudgement = ()=>{
             setLoading(false)
         }
         if(contract != undefined){
+            //Receive data from verificators section
             await Receive();
         }
 
@@ -79,11 +74,6 @@ export const VerificatorJudgement = ()=>{
 
         get();
 
-        if (!URI) {
-            return (<div>
-                <h3>No more trashtag to Verify</h3>
-            </div>)
-        }
 
         if (cid != undefined) {
             return (

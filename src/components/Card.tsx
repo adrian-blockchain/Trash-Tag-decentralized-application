@@ -4,9 +4,7 @@ import "./card.css";
 import axios from "axios";
 import {useState} from "react";
 
-interface Props{
-    cid:string
-}
+
 
 export const Card:({cid}: { cid: string}) => (JSX.Element|null) =({cid})=>{
 
@@ -14,6 +12,7 @@ export const Card:({cid}: { cid: string}) => (JSX.Element|null) =({cid})=>{
     const [loading, setLoading] = useState(true)
 
     const load =async ()=> {
+        //Get Metadatas of a Trashtag token
         const ans: any = await axios.get(`https://ipfs.io/ipfs/${cid}`)
 
         setRes(ans)

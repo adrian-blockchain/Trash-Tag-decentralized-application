@@ -60,6 +60,7 @@ contract TrashtagDAPP is  Trashtag {
 
     /*
  * Store metadata's uri
+ * _uri and address are stored on a list. When a Verificator judge a trashtag challenge, he has +1 in his index, so he could not judge again the precedent trashtag.
  */
     function NeedToBeValidate(string calldata _uri) public{
         WaitingList.push(msg.sender);
@@ -105,7 +106,10 @@ contract TrashtagDAPP is  Trashtag {
     }
 
 
+    /*
+        Judgement from verificator
 
+    */
     function Verify(bool _judgment) public IsVerificator() returns(bool){
 
         uint _TTValidated = TrashtagValidatedByVerificator[msg.sender];
@@ -126,9 +130,11 @@ contract TrashtagDAPP is  Trashtag {
                 int judgement = Judgment[_TTWarrior][amountNFT];
 
                 if(judgement == 5){
-
+                    //Get the uri from the getWaitingList
                     string memory _uri = WaintingURI[_TTValidated];
+                    //Create and reward Trashtag Warrior
                     TrashtagTagTokenCreation(_uri, _TTWarrior);
+                    //Reward the verificator
                     Jobcoin.verificatorReward(msg.sender);
                 }
 

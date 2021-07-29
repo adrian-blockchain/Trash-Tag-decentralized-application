@@ -4,11 +4,9 @@ import React, { useState} from "react";
 import EXIF from 'exif-js'
 import ipfs from "../ipfs";
 import MetadataExport from "./metadataExport";
-import {Simulate} from "react-dom/test-utils";
+
 import './GetImage.css'
-import verification from "./verification";
-import GetDataForVerif from "./GetDataForVerification";
-import createNFT from "./createNFT";
+
 
 
 
@@ -35,7 +33,6 @@ export const GetImage = ({account, contract}:{account:string, contract:any})=>{
     let [test, setTest] = useState<boolean>(false)
 
 
-    let verif:boolean = false;
 
     const captureImg1 = (event:any) =>{
         console.log('image 1 deposed')
@@ -211,6 +208,8 @@ export const GetImage = ({account, contract}:{account:string, contract:any})=>{
 
 
         /*
+        We turned off geographical verification because Iphone pictures seems to not work with exif.js
+
         if (MetaDataImg1 !== undefined && MetaDataImg2 !==undefined )
         verif = verification(MetaDataImg1,MetaDataImg2)
         console.log(verif)

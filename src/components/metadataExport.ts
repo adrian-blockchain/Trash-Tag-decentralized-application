@@ -17,6 +17,9 @@ export const MetadataExport =async (metadataImg1:any, metadataImg2:any, hashimg1
             IdImg:1,
             ImgHash:`https://ipfs.io/ipfs/${hashimg1}`,
             /*
+                    We turned off geographical verification because Iphone pictures seems to not work with exif.js
+
+
             GPSLongitudeDegrees:metadataImg1.GPSLongitude[0].numerator / metadataImg1.GPSLongitude[0].denominator,
             GPSLongitudeMinutes:metadataImg1.GPSLongitude[1].numerator / metadataImg1.GPSLongitude[1].denominator,
             GPSLongitudeSeconds:metadataImg1.GPSLongitude[2].numerator / metadataImg1.GPSLongitude[2].denominator,

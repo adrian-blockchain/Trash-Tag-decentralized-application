@@ -98,9 +98,10 @@ Lauch
       console.log(ethBal)
       setEthBalance(ethBal);
 
-      //console.log(networkData)
+
       if (networkData){
         const abi =TrashTag.abi;
+        //create an instance usable by the front to interact with the blockchain
         const Contract =new web3.eth.Contract(abi, networkData.address)
         setContract(Contract)
         console.log(contract)
@@ -112,6 +113,7 @@ Lauch
 
     componentWillAmount();
 
+    //Hide component rules
   const hideAware =()=>{
     setHide(true);
   }

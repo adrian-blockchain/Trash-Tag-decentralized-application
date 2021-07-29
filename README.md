@@ -38,14 +38,14 @@ Today, the most known cryptocurrency is Bitcoin, where the inflation system work
 
 Our world is changing, we learn at school that a majority of job do not exist yet.
 We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to real value creation. 
-Blockchain job is basically task job which are finance by cryptocurrencies.
-You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production probkems. 
-We think that if we creat a new form of job to collect wastes no matter where it is. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+Blockchain job is basically task job which are finance by cryptocurrency, the Jobcoin.
+
+Our idea is to create a job to collect wastes, with a decentralised application. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+
+You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production problems.
 
 
 
-
-Inspired bu the trashtag challenge which was a twitter challenge created in 2019, the concept were to find a place full of waste, take a pictures, clean it up, take a picture again to show the work done, and post it on twitter. We want to bring this idea to a new scale thanks to the blockchain technology. We had the idea of a trashtag Token which are basicaly an Non-fongible token wich are created to represent an trashtag challenge. Futhermore, each time a trashtag warrior
 
 ## Demo video
 
@@ -61,8 +61,8 @@ Inspired bu the trashtag challenge which was a twitter challenge created in 2019
 4. CID of Metadatas and trashtag warrior blockchain address are send in a waiting list on our smart-contracts 
 5. Verificator interface receive the last trashtag challenge cid
 6. Interface extract data from IPFS thanks to the CID
-7. Trashtag Pictures are show to the verificators
-8. If 5 Verificators valid a trashtag, 100JBC and a trashtag token will be created for the trashtag warrior.
+7. Trashtag Pictures are show to a verificator
+8. If 5 Verificators valid the trashtag challenge, 100JBC and a trashtag token will be created for the trashtag warrior.
 9. Each time a trashtag challenge is validate, pictures are send to the watson AI to train our model of trash tag visual recognition.
 
 ## Long description
@@ -92,7 +92,10 @@ You will also see any lint errors in the console.
 
 ## Live demo
 
-You can find a running system to test at [Trashtag-dapp](https://trashtagdapp.eu-gb.cf.appdomain.cloud/).
+To be able to use the Dapp, you need to have a crypto-wallet such as [Metamask](https://metamask.io/) on you web browser.
+Then you need to select 'Rinkeby test network'.
+
+You can find a running system to test at [Trashtag-dapp.com](https://trashtagdapp.eu-gb.cf.appdomain.cloud/).
 
 ## Built with
 

@@ -39,8 +39,7 @@ We believe that the blockchain revolution can lead to a new form of employment. 
 Blockchain job is basically task job which are finance by a cryptocurrency, the Jobcoin.
 
 Our idea is to create a job to collect wastes, with a decentralised application. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
-
-You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production problems.
+You can look at blockchain job section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.
 
 
 
@@ -77,9 +76,11 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 1. git clone https://github.com/adrian-blockchain/Trash-Tag-decentralized-application
 
-2. npm install
+2. cd Trash-Tag-decentralized-application
 
-3. npm start
+3. npm install
+
+4. npm start
 
 
 Runs the app in the development mode.

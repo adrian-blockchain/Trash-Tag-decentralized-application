@@ -1,0 +1,62 @@
+body{
+  display: block;
+  padding-left: 0 ;
+}
+
+h2{
+  margin-top: 20%;
+}
+
+.container-picture{
+  margin-top: 1%;
+}
+
+.container-picture p{
+  margin-bottom: 1%;
+}
+
+img{
+  margin-top: 2%;
+  max-width: 50%;
+  height: auto;
+}
+
+li{
+  margin-top: 9%;
+}
+
+.logo{
+  margin-top: 2%;
+  width:40%;
+  height: auto;
+  margin-bottom: 2%;
+}
+
+.Button{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+
+.notice img{
+  width: 40%;
+  height: auto;
+}
+
+.balance{
+
+  margin-top: -5%;
+  background: linear-gradient(90deg, rgb(140,234,121)0%, rgba(0,221,123,1)100%);
+  color: white;
+  padding-top: 1px;
+  text-align: right;
+
+
+}
+.balance h4{
+
+  margin-right: 3%;
+  font-size: 1rem;
+}

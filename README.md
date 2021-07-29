@@ -29,14 +29,14 @@ Wild pollution is a common problem in devlopped and in-developpement countries. 
 
 ### How can technology help?
 
-Today, the most known cryptocurrency is Bitcoin, where the inflation system work with an electrical heavy consumption proof of work algorithm. That's mean to create a new bitcoin you need to resolve very complex mathematical problems. We believe that the blockchain environment is more mature thanks to smart contracts. So we created the Jobcoin. A cryptocurrency where a new supply is created each time a Trash tag challenge is done and verify. To remind, a Trash tag challenge is an ecological action where people find a place with wild pollution, take a picture, clean it up and take a picture again to show the work done. The ambition is to create an economic interests to protect natural environment for anyone thanks to a cryptocurrency.
+Today, the most known cryptocurrency is Bitcoin, where the inflation system work with an electrical heavy consumption proof of work algorithm. That's mean to create a new bitcoin you need to resolve very complex mathematical problems. We believe that the blockchain environment is more mature thanks to smart contracts. So we created the Jobcoin. A cryptocurrency where a new supply is created each time a Trash tag challenge is done and verify. To remind, a Trash tag challenge is an ecological action where people find a place with wild pollution, take a picture, clean it up and take a picture again to show the work done. The ambition is to create an economic interests to protect natural environment thanks to a cryptocurrency.
 
 
 ### The idea
 
 Our world is changing, we learn at school that a majority of job do not exist yet.
 We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to real value creation. 
-Blockchain job is basically task job which are finance by cryptocurrency, the Jobcoin.
+Blockchain job is basically task job which are finance by a cryptocurrency, the Jobcoin.
 
 Our idea is to create a job to collect wastes, with a decentralised application. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
 

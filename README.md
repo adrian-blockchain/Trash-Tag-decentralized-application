@@ -41,8 +41,7 @@ We believe that the blockchain environment is more mature thanks to smart contra
 Our world is changing, we learn at school that a majority of job do not exist yet.
 We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to value creation. That's may be possible thanks to new form of organizations which are DAO or Decentralized Autonomous Organization, the future of ONG.
 Blockchain job is basically task job which are finance by cryptocurrencies.
-You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production probkems.
-Like in the delivery industry where the most expensive sector is the last-kilometer shipment. We think if we creat a new form of job to collect wastes no matter where it is. It would permit to local authority to economize money in collect of waste and to reinvest this money to permit the recycling of waste. By this way, we want to privatize the fact of collect wild pollution waste to let local authority the possibility to create recycling center.
+You can look at blockchain job section in our long description to see how we could apply this technology to Zero Hungers and Green production probkems. We think if we creat a new form of job to collect wastes no matter where it is. It would permit to local authority to economize money in collect of waste and to reinvest this money to permit the recycling of waste. By this way, we want to privatize the fact of collect wild pollution waste to let local authority the possibility to create recycling center.
 
 
 
@@ -51,7 +50,7 @@ Inspired bu the trashtag challenge which was a twitter challenge created in 2019
 
 ## Demo video
 
-[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[Trashtag Dapp video](https://youtu.be/hYrPhCq5wrM)
 
 ## The architecture
 

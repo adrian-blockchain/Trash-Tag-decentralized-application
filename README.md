@@ -130,5 +130,5 @@ You can find a running system to test at [Trashtag-dapp.com](https://trashtagdap
 - Thanks to Marion Fernandes, Clemence Verbergt and Maxime Antoine for their partcipation for the first decentralized trashtag challenge
 - Thanks to Mamie Anne for the support
 - Thanks to Lucie Philipot and the newspapper l'union for their article about our project:
-[![union](./readmePict/union.jpg)]
+[union](./readmePict/union.jpg)
 

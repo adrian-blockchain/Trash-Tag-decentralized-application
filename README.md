@@ -42,8 +42,8 @@ In our Dapp, a trashtag challenge is represented by a non-fongible-token that we
 Blockchain job is a task job which is funded by a cryptocurrency, the Jobcoin, and ruled by blockchain.
 
 Our idea is to create a job to collect wastes, with a decentralized application. It would:
-    1- Limit the amount of detritus which could end up in water supplies.  
-    2- Permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+1. Limit the amount of detritus which could end up in water supplies.  
+2. Permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
 
 
 You can look at "f. Blockchain job" section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.

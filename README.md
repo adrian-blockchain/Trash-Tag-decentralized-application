@@ -1,5 +1,6 @@
 # TrashTag DAPP
 
+Blockchain job to clean up environment and protect water supplies
 
 ## Contents
 
@@ -25,7 +26,7 @@
 ### What's the problem?
 
 
-Wild pollution is a common problem in devlopped and in-developpement countries. This kind of pollution lead to a destruction of natural ecosystem and can be a source of potential desease. Plastic pollution in water supplies is responsible of the onset of desease such as Chloéra and dysenterie. The problem is that is very hard to fight against this kind of pollution because it’s very expensive to paid people to clean up natural areas.
+Wild pollution is a common problem in devlopped and in-developpement countries. This kind of pollution lead to a destruction of natural ecosystem and can be a source of potential desease. Plastic pollution in water supplies is responsible of the onset of desease such as cholera, diarrhea and dysenterie. The problem is that is very hard to fight against this kind of pollution because it’s very expensive to paid people to clean up natural areas.
 
 ### How can technology help?
 
@@ -35,14 +36,16 @@ Today, the most known cryptocurrency is Bitcoin, where the inflation system work
 ### The idea
 
 Our world is changing, we learn at school that a majority of job do not exist yet.
-We believe that the blockchain revolution can lead to a new form of employment. An employment where financial speculation can be directly connect to real value creation. 
-Blockchain job is basically task job which are finance by a cryptocurrency, the Jobcoin.
+We believe that the blockchain revolution can lead to a new form of employment. An employment where crypto financial speculation can be directly connect to real value creation.
+Trashtag challenges represent an ecological value creation for our environment.
+In our Dapp, a trashtag challenge is represented by a non-fongible-token that we call a Trashtag Token. This token has to be approved by Verificators. They are independent users of our decentralized application which are judging of the veracity of the trashtag challenge. By a democratic vote, Verificators rewards the person which had done the trashtag challenge, we call them Trashtag Warrior. 
+Blockchain job is a task job which is funded by a cryptocurrency, the Jobcoin, and ruled by blockchain.
 
-Our idea is to create a job to collect wastes, with a decentralised application. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+Our idea is to create a job to collect wastes, with a decentralized application. It would:
+  1- Limit the amount of detritus which could end up in water supplies.  
+  2- Permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
 
-You can look at f. Blockchain job section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.
-
-
+You can look at "f. Blockchain job" section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.
 
 
 ## Demo video

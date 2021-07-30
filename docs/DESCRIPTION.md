@@ -40,10 +40,11 @@ Trash tag warriors can look for their Trash tag Token in the “YourTrashtags”
 
 ## e. Job coin
 
-Jobcoin is way more than a tradable cryptocurrency, Jobcoin has an important role for the functioning of our decentralized application. To work our system needs verificators, to ensure the sincerity of judgement done by verificators, we had the idea to create a staking system. The concept is that verificators need to stake 1000 Jobcoins, when Jobcoin will be deployed to the main net, this crypto may have value. So if the stake of the verificator is representing a real amount of money, he should be more willing to tell the truth about the trash tag challenge. The judgement system can be look on “./trashtag-dapp/contract/trashtagDAPP.sol”, it’s a smart-contract. That’s mean rules which are established here could not be change by any hackers. The reward system is directly manage in smart-contracts.
-
+The Jobcoin is the cryptocurrency which serve to reward trashtag warrior. But it has also an important role for the functioning of our decentralized application. To work our system needs verificators, to ensure the sincerity of judgement done by verificators, we had the idea to create a staking system. The concept is that verificators need to stake 1000 Jobcoins. When the Jobcoin will be deployed to the main net, it will be convertible with other cryptocurrencies. So, the verificator stake will represent a real amount of money. By consequence, he should be more willing to tell the truth about the trash tag challenge. The judgement system can be look on “./contract/trashtagDAPP.sol” and staking system on “./contract/Jobcoin.sol”
 
 ## f. Blockchain job
+
+Blockchain Jobs are actions, ruled by blockchain, that create  an ecological value for our planet and has to be financed by Jobcoins.  
 
 We believe that, small actions can have a big impact in the development of
 societies. So, the goal with the jobcoin is to give the possibility to finance small action or job which are essential for the development, but today not economically interesting.

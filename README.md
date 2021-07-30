@@ -128,6 +128,6 @@ You can find a running system to test at [Trashtag-dapp.com](https://trashtagdap
 
 - Thanks to all the Blockchain Lab of Garage ISEP, Nicolas Pasquier, Kevin Chhoa, Eyad Abdellatif, Enzo Cogneville and Raphaël Raux
 - Thanks to Marion Fernandes, Clemence Verbergt and Maxime Antoine for their partcipation for the first decentralized trashtag challenge
-- Thanks to Lucie Philipot and the newspapper l'union for their article about our project
 - Thanks to Mamie Anne for the support
+- Thanks to Lucie Philipot and the newspapper l'union for their article about our project:
 

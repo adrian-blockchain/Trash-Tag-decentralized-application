@@ -99,7 +99,7 @@ You can find a running system to test at [Trashtag-dapp.com](https://trashtagdap
 
 ## Built with
 
-- [IBM Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry) - To host our the interface of our web application
+- [IBM Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry) - To host our React TS app
 - [IBM Watson AI for Visual recognition](https://developer.ibm.com/technologies/vision/) - To develop a model of AI to detect trashtag challenge
 - [Rinkeby Ethereum testnet](https://www.rinkeby.io) - Smart-contracts are immutable, so we wanted to test our dapp on a test network 
 

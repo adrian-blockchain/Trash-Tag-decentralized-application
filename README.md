@@ -39,6 +39,7 @@ We believe that the blockchain revolution can lead to a new form of employment. 
 Blockchain job is basically task job which are finance by a cryptocurrency, the Jobcoin.
 
 Our idea is to create a job to collect wastes, with a decentralised application. It would permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+
 You can look at blockchain job section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.
 
 

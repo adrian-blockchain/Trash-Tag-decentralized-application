@@ -104,6 +104,9 @@ You will also see any lint errors in the console.
 To be able to use the Dapp, you need to have a crypto-wallet such as [Metamask](https://metamask.io/) on your web browser.
 Then you need to select 'Rinkeby test network'.
 
+We are sorry but we were not able to build correctly our react-ts application, webpack issues. So we could not ddeploy it on the ibmcloud foundery.
+But you can test our dapp with the getting started section.
+
 You can find a running system to test at [Trashtag-dapp.com](https://trashtagdapp.eu-gb.cf.appdomain.cloud/).
 
 ## Built with

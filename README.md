@@ -26,7 +26,7 @@ Blockchain job to clean up environment and protect water supplies
 ### What's the problem?
 
 
-Wild pollution is a common problem in devlopped and in-developpement countries. This kind of pollution lead to a destruction of natural ecosystem and can be a source of potential desease. Plastic pollution in water supplies is responsible of the onset of desease such as cholera, diarrhea and dysenterie. The problem is that is very hard to fight against this kind of pollution because it’s very expensive to paid people to clean up natural areas.
+Wild pollution is a common problem in developed and in-developpement countries. This kind of pollution lead to a destruction of natural ecosystem and can be a source of potential disease. Plastic pollution in water supplies is responsible for the onset of disease such as cholera, diarrhea and dysentery. The problem is that it is very hard to fight against this kind of pollution because it’s very expensive to paid people to clean up natural areas.
 
 ### How can technology help?
 

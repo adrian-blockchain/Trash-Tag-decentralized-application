@@ -42,10 +42,14 @@ In our Dapp, a trashtag challenge is represented by a non-fongible-token that we
 Blockchain job is a task job which is funded by a cryptocurrency, the Jobcoin, and ruled by blockchain.
 
 Our idea is to create a job to collect wastes, with a decentralized application. It would:
-  1- Limit the amount of detritus which could end up in water supplies.  
-  2- Permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+    1- Limit the amount of detritus which could end up in water supplies.  
+    2- Permit to local authority to saving money in collect of waste and to reinvest it to create recycling centers. 
+
 
 You can look at "f. Blockchain job" section in our [long description](./docs/DESCRIPTION.md) to see how we could apply this technology to Zero Hungers and Green production problems.
+
+
+
 
 
 ## Demo video
@@ -78,6 +82,9 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
+To be able to use the Dapp, you need to have a crypto-wallet such as [Metamask](https://metamask.io/) on your web browser.
+Then you need to select 'Rinkeby test network'.
+
 1. git clone https://github.com/adrian-blockchain/Trash-Tag-decentralized-application
 
 2. cd Trash-Tag-decentralized-application
@@ -87,7 +94,6 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 4. npm start
 
 
-Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
 The page will reload if you make edits.

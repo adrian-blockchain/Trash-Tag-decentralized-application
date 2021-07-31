@@ -40,6 +40,7 @@ contract Trashtag is ERC1155, Jobcoin{
     }
 
 
+//The number of trashtag challenge verified and accepted
 
     function getAmountNFT(address _receiver) public view returns(uint){
         return NFTAmount[_receiver];
@@ -47,7 +48,7 @@ contract Trashtag is ERC1155, Jobcoin{
 
 
 
-
+//Retunr the link to access to metadatas
     function getURI(uint _tokenId)public view returns(string memory){
         string memory hashURI = tokenURI[msg.sender][_tokenId];
         return hashURI;

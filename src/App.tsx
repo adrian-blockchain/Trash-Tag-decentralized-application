@@ -47,6 +47,9 @@ Lauch
     }
 
   }
+  /*
+  *Get user jobcoin balance
+  */
 
   const getBalance = ()=>{
     const load = async ()=>{

@@ -61,7 +61,7 @@ export const Jobcoin =()=>{
             </div>
     )
     }
-
+//Get global supply of jobcoin present on the rinkeby testnet
     const getSupply =async () =>{
         let sup = await contract.methods.totalSupply().call(
             {from:account}
@@ -70,7 +70,7 @@ export const Jobcoin =()=>{
         setSupply(supp);
     }
 
-
+//Web 3 permit to our dapp to interact with smart-contracts
     const loadWeb3 = async () => {
         if (window.ethereum) {
             window.web3 = new Web3(window.ethereum)

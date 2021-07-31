@@ -31,6 +31,8 @@ Wild pollution is a common problem in devlopped and in-developpement countries. 
 
 Today, the most known cryptocurrency is Bitcoin, where the inflation system work with an electrical heavy consumption proof of work algorithm. That's mean to create a new bitcoin you need to resolve very complex mathematical problems. We believe that the blockchain environment is more mature thanks to smart contracts. So we created the Jobcoin. A cryptocurrency where a new supply is created each time a Trash tag challenge is done and verify. To remind, a Trash tag challenge is an ecological action where people find a place with wild pollution, take a picture, clean it up and take a picture again to show the work done. The ambition is to create an economic interests to protect natural environment thanks to a cryptocurrency.
 
+AI is increasingly used to identify objects, situations, animals. In our case, we use AI to check the jobs of our users, to identify if the trash tag warriors have done the right job and to be able to pay them.
+
 
 ### The idea
 

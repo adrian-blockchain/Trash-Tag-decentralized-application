@@ -221,6 +221,55 @@ export const GetImage = ({account, contract}:{account:string, contract:any})=>{
 
         await ImgOnIpfs(img2);
 
+
+        try {
+            //Get token for authentification
+            const params = {
+                "response_type" : "cloud_iam" ,
+                "grant_type" : "urn:ibm:params:oauth:grant-type:apikey" ,
+                "apikey" : "g_o74Vwv55vdttJQHld6xJ-iK_94pfWJQ7trMh17WLLw"
+            }
+
+            const response = await fetch('https://s3.us.cloud-object-storage.appdomain.cloud/BUCKET/FILE_NAME',{
+                    method:'POST',
+                    body: JSON.stringify(params)
+                }
+            )
+            const data = await response.json()
+            const token = data.acces_token
+
+            //fetch for the post le img
+
+            const header = {
+                "Authorization" : `bearer ${token}`
+            }
+            const paramimg = {"version": "1.0",
+                "type": "Classification",
+                "labels": ["Sale", "propre"],
+                "annotations": {
+                    img1 : [
+                        {
+                            "label": "propre"
+                        }],
+                    img2 :[
+                        {
+                            "label": "Sale"
+                        }
+                    ]
+                }}
+
+            await fetch('https://s3.us.cloud-object-storage.appdomain.cloud/BUCKET/FILE_NAME',{
+                method:'PUT',
+                headers: header,
+                body: JSON.stringify(paramimg)
+            })
+        }
+        catch (e) {
+            console.log(e)
+        }
+
+
+
         setDebuging(false)
         setvalidate(true)
         console.log(validate)

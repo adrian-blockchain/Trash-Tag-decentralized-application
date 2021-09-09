@@ -1,0 +1,6 @@
+apps:
+  - name: trashtag-dapp
+    app_name: trashtag-dapp
+    host: trash-tag
+    memory: 256M
+    path: build/

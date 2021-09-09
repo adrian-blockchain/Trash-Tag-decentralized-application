@@ -28,4 +28,4 @@ node_modules
 cache
 artifacts
 
-
+.env

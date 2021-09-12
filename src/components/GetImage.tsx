@@ -128,7 +128,7 @@ export const GetImage = ({account, contract}:{account:string, contract:any})=>{
     const validateTestNFT=async ()=>{
         const uri:string = await MetadataExport(MetaDataImg1, MetaDataImg2, imgHash[0], imgHash[1] )
         await contract.methods.NFTCreationForTest(uri, account).send(
-            {from:account}
+            {from:account,type:'0x2'}
         )
         console.log(`https://ipfs.io/ipfs/${uri}`)
         setTokenCreated(true)
@@ -140,7 +140,7 @@ export const GetImage = ({account, contract}:{account:string, contract:any})=>{
     const SendToVerificator = async ()=>{
         const uri:string = await MetadataExport(MetaDataImg1, MetaDataImg2, imgHash[0], imgHash[1]);
         await contract.methods.NeedToBeValidate(uri).send(
-            {from:account}
+            {from:account, type:'0x2'}
         );
         setTokenCreated(true)
     }

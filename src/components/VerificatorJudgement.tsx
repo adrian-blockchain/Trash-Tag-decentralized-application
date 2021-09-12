@@ -35,7 +35,7 @@ export const VerificatorJudgement = ()=>{
     const yes = ()=>{
         const post = async ()=>{
             await contract.methods.Verify(true).send(
-                {from:account}
+                {from:account, type:'0x2'}
             )
             window.location.reload();
         }
@@ -45,7 +45,7 @@ export const VerificatorJudgement = ()=>{
     const no = ()=>{
         const post = async ()=>{
             await contract.methods.Verify(false).send(
-                {from:account}
+                {from:account, type:'0x2'}
             )
             window.location.reload();
         }

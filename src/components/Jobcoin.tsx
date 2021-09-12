@@ -46,7 +46,7 @@ export const Jobcoin =()=>{
     //Send Jobcoin to user's wallet
     const getJBC =()=>{
         const load = async ()=> {
-            await contract.methods.GetForTest().send({from: account})
+            await contract.methods.GetForTest().send({from: account,type:'0x2'})
             setWait(false)
 
         }

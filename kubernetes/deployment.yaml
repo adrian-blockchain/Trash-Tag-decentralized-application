@@ -1,0 +1,36 @@
+# Update <REGISTRY> <NAMESPACE> values before use
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trashtag-dapp
+  labels:
+    app: trashtag-dapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trashtag-dapp
+  template:
+    metadata:
+      labels:
+        app: get-trashtag-dapp
+    spec:
+      containers:
+        - name: get-trashtag-dapp
+          image: <REGISTRY>/<NAMESPACE>/myapp:v1.1.0
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
+          env:
+            - name: CLOUDANT_URL
+              valueFrom:
+                secretKeyRef:
+                  name: cloudant
+                  key: url
+                  optional: true
+            - name: CLOUDANT_IAM_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: cloudant
+                  key: iamApiKey
+                  optional: true

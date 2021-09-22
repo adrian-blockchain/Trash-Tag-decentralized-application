@@ -39,7 +39,7 @@ export const Verificators = ()=>{
         const withdraw = ()=>{
             const load = async ()=>{
                 await contract.methods.withdrawStake().send(
-                    {from:account, type:'0x2'}
+                    {from:account}
                 )
                 setWait1(false)
 

@@ -8,7 +8,7 @@ export const Metamask = ()=>{
         <div><h2>You did not install metamask yet</h2>
             <img src={Fox}/>
             <h5>Metamask is a crypto-wallet which permit to do the connection between you and the blockchain</h5>
-            <h5>It's the key to enter in the world of decenetralized application</h5>
+            <h5>It's the key to enter in the world of decentralized applications</h5>
             <h5>You can install it here : <a href="https://metamask.io/" target="_blank">Metamask.io</a> </h5>
             <br/>
 

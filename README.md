@@ -56,7 +56,7 @@ You can look at "f. Blockchain job" section in our [long description](./docs/DES
 
 ## Demo video
 
-[![Trashtag Dapp video](./readmePict/imagefin.PNG)](https://youtu.be/hYrPhCq5wrM)
+[![Trashtag Dapp video](./readmePict/imagefin.PNG)](https://youtu.be/N30z44ZmNJg)
 
 ## The architecture
 

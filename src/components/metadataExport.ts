@@ -13,6 +13,7 @@ const client = new NFTStorage({token: apiKey})
 export const MetadataExport =async (metadataImg1:any, metadataImg2:any, hashimg1:string, hashimg2:string): Promise<string> => {
 
     let imgObj = [
+        //+ Addresse de l'utilisateur
         {
             IdImg:1,
             ImgHash:`https://ipfs.io/ipfs/${hashimg1}`,
@@ -47,7 +48,7 @@ export const MetadataExport =async (metadataImg1:any, metadataImg2:any, hashimg1
             GPSLatitudeRef:metadataImg2.GPSLatitudeRef,
             GPSImgDirection:metadataImg2.GPSImgDirection.numerator / metadataImg2.GPSImgDirection.denominator,
             DateTime:metadataImg2.DateTime
-
+            
              */
         }
     ]
